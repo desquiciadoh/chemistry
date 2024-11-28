@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chemistry</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<!-- menu area -->
+		<div class="menu">
+			<div class="header">Выбор вопросов</div>
+			<div class="ul">
+				<div style="background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);">Металлы</div>
+				<div style="background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);">Неметаллы</div>
+				<div style="background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);">Вещества</div>
+				<div style="background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);">Ученые</div>
+				<div style="background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);">Все вопросы</div>
+			</div>
+		</div>
+		<!-- mode area -->
+		<div class="mode">
+			<div class="header">Выбор режима</div>
+			<div class="theme">{THEME}</div>
+			<div class="ul">
+				<div class="four">4 варианта</div>
+				<div class="one" style="background-image: linear-gradient(to left, #25aae1, #4481eb, #04befe, #3f86ed);">Без вариантов</div>
+			</div>
+		</div>
+		<!-- work !4 buttons! area -->
+		<div class="work-button">
+			<div class="question">{QUESTION}</div>
+			<div class="ul">
+				<div>{FIRST}</div>
+				<div>{SECOND}</div>
+				<div>{THIRD}</div>
+				<div>{FOURTH}</div>
+			</div>
+		</div>
+		<!-- work !input! area -->
+		<div class="work-input">
+			<div class="question">{QESTION}</div>
+			<div class="area">
+				<div class="items">
+					<input type="text" placeholder="Ответ">
+					<div class="button">➤</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- script -->
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="data.js"></script>
+</body>
+</html>
